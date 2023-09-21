@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Painel de postagens</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <form action="" method="post">
+                <label for="author">Autor:</label>
+                <input type="text" id="author" required>
+                <br>
+                <br>
+                <label for="title">Título:</label>
+                <input type="text" id="title" required>
+                <br>
+                <br>
+                <label for="content-post">Texto:</label>
+                <br>
+                <textarea name="content-post" id="content-post" cols="45" rows="25" required spellcheck="true"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Publicar">
+            </form>
+        </section>
+        <section id="posts-section"></section>
+    </main>
+</body>
+</html>
